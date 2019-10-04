@@ -28,7 +28,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/moment.js'
+    '~/plugins/moment.js',
+    { src: '~/plugins/datePicker.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
